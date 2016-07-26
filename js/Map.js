@@ -62,8 +62,8 @@ var __INITIAL_WORDS__ = {
 
 var __GATES__ = {
    '=': ['A', 'B'],
-   '|': ['B', 'C'],
-   '!': ['C', 'A']
+  '!': ['C', 'A'],
+  '|': ['B', 'C'],
 };
 
 function mooreNeighborhood(index) {
